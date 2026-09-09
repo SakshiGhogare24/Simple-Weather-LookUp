@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+ 
+  
+  background: linear-gradient(
+    135deg,
+    #c6e0fb,
+    #ffffff
+  );
+}
+
+
+#app {
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+}
+
+#app h2 {
+  color: #222;
+  margin-bottom: 20px;
+}

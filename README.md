@@ -23,6 +23,10 @@ A simple and responsive weather lookup project built with **React** that allows 
 * **OpenWeatherMap API**
 * **Vite**
 
+## Live At
+
+https://sakshighogare24.github.io/Simple-Weather-LookUp/
+
 ## 📂 Project Structure
 
 ```text

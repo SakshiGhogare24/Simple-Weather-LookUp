@@ -27,11 +27,11 @@ export default function InfoBox({ weatherData }) {
 
       <div className="temperature-range">
         <span>
-          ↑ {Math.round(weatherData.max_temperature)}°C
+          ↑ {typeof weatherData.max_temperature === 'number' ? Math.round(weatherData.max_temperature) : weatherData.max_temperature}°C
         </span>
 
         <span>
-          ↓ {Math.round(weatherData.min_temperature)}°C
+          ↓ {typeof weatherData.min_temperature === 'number' ? Math.round(weatherData.min_temperature) : weatherData.min_temperature}°C
         </span>
       </div>
 
